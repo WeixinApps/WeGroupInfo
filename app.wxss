@@ -1,4 +1,4 @@
 view{
-    font-family: "Heiti Sun";
+    font-family: "'Heiti SC','Microsoft Yahei', Helvetica, Arial, sans-serif";
     font-size: 30rpx;
 }
