@@ -8,7 +8,7 @@ view.nav{
     background: #fff;
     z-index: 10;
     white-space:nowrap;
-    overflow-x: auto;
+    overflow-x: scroll;
 }
 view.nav>view{
     color:#666;
@@ -30,21 +30,21 @@ view.itemPic{
     background:  url('http://youyouplay.com/public/images/banner-3.jpg');
     background-size: cover;
 }
+view.itemContent{
+    margin: 0 30rpx;
+}
 view.itemTitle{
-    padding: 20rpx;
+    padding: 20rpx 0;
     font-size: 40rpx;
 }
 view.itemSummary{
-    padding: 0 20rpx;
+    padding: 0;
 }
 view.itemInfo{
-    padding: 20rpx;
+    padding: 20rpx 0;
     color:#666;
+    overflow: hidden;
     /*background-color: #33b;*/
-}
-view.itemAuthor{
-    padding-left:10rpx;
-    /*background-color: #d3b;*/
 }
 view.itemTime{
     float:right;

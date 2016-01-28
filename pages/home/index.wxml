@@ -13,15 +13,17 @@
             <view class="item">
                 <view class="itemPic">
                 </view>
-                <view class="itemTitle">               
-               去日本旅行最值得买的100件化妆品
-                </view>
-                <view class="itemSummary">
-               最美生活从旅行开始，现在出发！
-                </view>
-                <view class="itemInfo">
-                    <view class="itemTime">10小时前</view>
-                    <view class="itemAuthor">跟着企鹅去韩国</view>
+                <view class="itemContent">
+                    <view class="itemTitle">               
+                去日本旅行最值得买的100件化妆品
+                    </view>
+                    <view class="itemSummary">
+                最美生活从旅行开始，现在出发！
+                    </view>
+                    <view class="itemInfo">
+                        跟着企鹅去韩国
+                        <view class="itemTime">10小时前</view>
+                    </view>
                 </view>
             </view>
         </view>
