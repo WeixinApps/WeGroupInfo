@@ -1,0 +1,4 @@
+view{
+    font-family: "Heiti Sun";
+    font-size: 30rpx;
+}
