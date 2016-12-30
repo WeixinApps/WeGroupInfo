@@ -1,0 +1,19 @@
+<view class="container">
+    <view class="nav">
+        <view class="current">热点</view>
+        <view>通知</view>
+        <view>备忘</view>
+        <view>分享</view>
+    </view>
+    <view class="content">
+        <view class="list">
+            <view class="item">
+                <view class="itemPic">
+                </view>
+                <view class="itemTitle">               
+                Hello World!
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
