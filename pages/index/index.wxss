@@ -1,0 +1,31 @@
+view.container{
+    overflow: hidden;
+}
+view.nav{
+    width: 100%;
+    margin-bottom: 20rpx;
+    position: fixed;
+    background: #fff;
+    z-index: 10;
+}
+view.nav>view{
+    color:#666;
+    float: left;
+    width: 60rpx;
+    padding: 20rpx 40rpx;
+}
+view.nav>view.current{
+    color:#000;
+    border-bottom: 4rpx solid rgb(15,174,255);
+}
+view.content{
+    margin-top: 75rpx;
+}
+view.itemPic{
+    height: 400rpx;
+    width: 100%;
+    background: ghostwhite;
+}
+view.itemTitle{
+    padding: 20rpx;
+}
