@@ -7,5 +7,23 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "广告板",
     "navigationBarTextStyle":"black"
-   }
+   },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home_h.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/place.png",
+      "selectedIconPath": "images/place_h.png",
+      "text": "展示"
+    }, {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/shop.png",
+      "selectedIconPath": "images/shop.png",
+      "text": "展示"
+    }]
+    }
 }
