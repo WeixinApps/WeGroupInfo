@@ -11,8 +11,8 @@
   "tabBar": {
     "list": [{
       "pagePath": "pages/index/index",
-      "iconPath": "images/home.png",
-      "selectedIconPath": "images/home_h.png",
+      "iconPath": "images/windows.png",
+      "selectedIconPath": "images/windows_h.png",
       "text": "首页"
     }, {
       "pagePath": "pages/index/index",
@@ -22,8 +22,14 @@
     }, {
       "pagePath": "pages/index/index",
       "iconPath": "images/shop.png",
-      "selectedIconPath": "images/shop.png",
+      "selectedIconPath": "images/shop_h.png",
       "text": "展示"
-    }]
+    }, {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/user.png",
+      "selectedIconPath": "images/user_h.png",
+      "text": "展示"
+    }],
+    "selectedColor":"blue"
     }
 }
