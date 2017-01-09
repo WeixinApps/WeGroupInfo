@@ -24,7 +24,8 @@ view.content{
 view.itemPic{
     height: 400rpx;
     width: 100%;
-    background: ghostwhite;
+    background:  url('http://youyouplay.com/public/images/banner-3.jpg');
+    background-size: cover;
 }
 view.itemTitle{
     padding: 20rpx;
