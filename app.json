@@ -1,6 +1,9 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/home/index",
+    "pages/location/index",
+    "pages/shop/index",
+    "pages/user/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -10,25 +13,25 @@
    },
   "tabBar": {
     "list": [{
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/home/index",
       "iconPath": "images/windows.png",
       "selectedIconPath": "images/windows_h.png",
       "text": "首页"
     }, {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/location/index",
       "iconPath": "images/place.png",
       "selectedIconPath": "images/place_h.png",
-      "text": "展示"
+      "text": "附近"
     }, {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/shop/index",
       "iconPath": "images/shop.png",
       "selectedIconPath": "images/shop_h.png",
-      "text": "展示"
+      "text": "购物"
     }, {
-      "pagePath": "pages/index/index",
+      "pagePath": "pages/user/index",
       "iconPath": "images/user.png",
       "selectedIconPath": "images/user_h.png",
-      "text": "展示"
+      "text": "我的"
     }],
     "selectedColor":"#0081bc"
     }
