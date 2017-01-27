@@ -2,15 +2,18 @@ view.container{
     overflow: hidden;
 }
 view.nav{
-    width: 100%;
+    width:100%;
     margin-bottom: 20rpx;
     position: fixed;
     background: #fff;
     z-index: 10;
+    white-space:nowrap;
+    overflow-x: auto;
 }
 view.nav>view{
     color:#666;
-    float: left;
+    /*float: left;*/
+    display: inline-block;
     width: 60rpx;
     padding: 20rpx 40rpx;
 }
@@ -29,4 +32,21 @@ view.itemPic{
 }
 view.itemTitle{
     padding: 20rpx;
+    font-size: 40rpx;
+}
+view.itemSummary{
+    padding: 0 20rpx;
+}
+view.itemInfo{
+    padding: 20rpx;
+    color:#666;
+    /*background-color: #33b;*/
+}
+view.itemAuthor{
+    padding-left:10rpx;
+    /*background-color: #d3b;*/
+}
+view.itemTime{
+    float:right;
+    /*background-color: #fac;*/
 }
