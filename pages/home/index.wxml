@@ -1,5 +1,7 @@
 <view class="container">
-    <view class="nav">
+    <import src="nav.wxml"/>
+    <template is="nav" data="{{nav}}"/>
+    <!--<view class="nav">
         <view class="current">热点</view>
         <view>美食</view>
         <view>购物</view>
@@ -7,25 +9,58 @@
         <view>美丽</view>
         <view>生活</view>
         <view>游戏</view>
-    </view>
+    </view>-->
     <view class="content">
         <view class="list">
-            <view class="item">
-                <view class="itemPic">
+        <view class="item">
+            <view class="itemPic">
+            </view>
+            <view class="itemContent">
+                <view class="itemTitle">
+                    去日本旅行最值得买的100件化妆品
                 </view>
-                <view class="itemContent">
-                    <view class="itemTitle">               
-                去日本旅行最值得买的100件化妆品
-                    </view>
-                    <view class="itemSummary">
-                最美生活从旅行开始，现在出发！
-                    </view>
-                    <view class="itemInfo">
-                        跟着企鹅去韩国
-                        <view class="itemTime">10小时前</view>
-                    </view>
+                <view class="itemSummary">
+                    最美生活从旅行开始，现在出发！
+                </view>
+                <view class="itemInfo">
+                    跟着企鹅去韩国
+                    <view class="itemTime">10小时前</view>
                 </view>
             </view>
         </view>
+        <view class="item">
+            <view class="itemPic">
+            </view>
+            <view class="itemContent">
+                <view class="itemTitle">
+                    去日本旅行最值得买的100件化妆品
+                </view>
+                <view class="itemSummary">
+                    最美生活从旅行开始，现在出发！
+                </view>
+                <view class="itemInfo">
+                    跟着企鹅去韩国
+                    <view class="itemTime">10小时前</view>
+                </view>
+            </view>
+        </view>
+        <view class="item">
+            <view class="itemPic">
+            </view>
+            <view class="itemContent">
+                <view class="itemTitle">
+                    去日本旅行最值得买的100件化妆品
+                </view>
+                <view class="itemSummary">
+                    最美生活从旅行开始，现在出发！
+                </view>
+                <view class="itemInfo">
+                    跟着企鹅去韩国
+                    <view class="itemTime">10小时前</view>
+                </view>
+            </view>
+        </view>
+        </view>
     </view>
+
 </view>

@@ -10,14 +10,14 @@ view.nav{
     white-space:nowrap;
     overflow-x: scroll;
 }
-view.nav>view{
+view.nav>navigator{
     color:#666;
     /*float: left;*/
     display: inline-block;
     width: 60rpx;
     padding: 20rpx 40rpx;
 }
-view.nav>view.current{
+view.nav>navigator.current{
     color:#000;
     border-bottom: 4rpx solid rgb(15,174,255);
 }

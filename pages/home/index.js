@@ -1,9 +1,8 @@
+const nav = require('nav.js');
 class Index{
     constructor(){
         this.app = getApp();
-        this.data = {
-            
-        }
+        this.data = {"nav":{"navItems":nav.navItems,"current":"index"}};
         this.bindMethods();
     }
     bindMethods(){
