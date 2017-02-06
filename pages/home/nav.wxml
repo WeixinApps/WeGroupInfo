@@ -1,7 +1,7 @@
 <template name="nav">
     <view class="nav" >
-        <navigator wx:for="{{nav.items}}" wx:key="{{item.index}}"
-         class=""
+        <navigator wx:for="{{items}}" wx:key="{{item.index}}"
+         class="{{current==item.url ? 'current' : ''}}"
          url="{{item.url}}" open-type="redirect" > {{item.text}} </navigator> 
     </view>
 </template>

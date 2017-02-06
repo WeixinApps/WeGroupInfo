@@ -1,15 +1,6 @@
 <view class="container">
     <import src="nav.wxml"/>
-    <template is="nav" data="{{nav}}"/>
-    <!--<view class="nav">
-        <view class="current">热点</view>
-        <view>美食</view>
-        <view>购物</view>
-        <view>旅行</view>
-        <view>美丽</view>
-        <view>生活</view>
-        <view>游戏</view>
-    </view>-->
+    <template is="nav" data="{{...nav,current:'index'}}"/>
     <view class="content">
         <view class="list">
         <view class="item">
