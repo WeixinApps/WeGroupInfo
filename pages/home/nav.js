@@ -24,4 +24,5 @@ const navItems =  {
         }
     ]
 };
-module.exports.navItems = navItems; 
+// module.exports.navItems = navItems; 
+export default navItems;
