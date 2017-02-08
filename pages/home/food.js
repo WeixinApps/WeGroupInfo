@@ -12,8 +12,8 @@ class Index{
     bindViewTap(){
 
     }
-    onLoad(option){
-        console.log(option.page)
+    onLoad(){
+
     }
     onShareAppMessage(){
         return {
