@@ -1,0 +1,22 @@
+<template name="content">
+    <view class="content">
+        <view class="list">
+        <view wx:for="{{items}}" wx:key="{{item.index}}" class="item">
+            <view class="itemPic">
+            </view>
+            <view class="itemContent">
+                <view class="itemTitle">
+                    {{item.title}}
+                </view>
+                <view class="itemSummary">
+                    {{item.summary}}
+                </view>
+                <view class="itemInfo">
+                    {{item.info}}
+                    <view class="itemTime">{{item.time}}</view>
+                </view>
+            </view>
+        </view>
+        </view>
+    </view>
+</template>

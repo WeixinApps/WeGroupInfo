@@ -31,7 +31,7 @@ view.itemPic{
     background-size: cover;
 }
 view.itemContent{
-    margin: 0 30rpx;
+    margin: 0 30rpx 20rpx 30rpx;
 }
 view.itemTitle{
     padding: 20rpx 0;

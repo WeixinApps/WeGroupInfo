@@ -3,11 +3,11 @@ import nav from 'nav';
 class Index{
     constructor(){
         this.app = getApp();
-        this.data = {nav};
+        this.data = {nav,current:"index"};
         this.bindMethods();
     }
     bindMethods(){
-
+       this.bindNavTap = this.bindNavTap.bind(this);
     }
     bindViewTap(){
 
@@ -15,6 +15,20 @@ class Index{
     onLoad(options){
         console.log(options);
         console.log(options.query);
+        console.log(this)
+        this.setData({
+          current: "a"
+        });
+    }
+    bindNavTap(e){
+        console.log(e.target);
+        console.log(this);
+        this.setCurrent(e.target.id);
+    }
+    setCurrent(current){
+        this.setData({
+          current: current
+        });
     }
     onShareAppMessage(){
         return {
