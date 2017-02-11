@@ -12,6 +12,7 @@ class Index{
        //this.setData = Page.prototype.setData.bind(this);
        this.bindNavTap = this.bindNavTap.bind(this);
        // this.onLoad = this.onLoad.bind(this);
+       this.onShareAppMessage = this.onShareAppMessage.bind(this);
     }
     bindViewTap(){
 
