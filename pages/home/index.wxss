@@ -25,7 +25,9 @@ view.content{
     margin-top: 75rpx;
 }
 view.itemPic{
+    height: 400rpx;
     width: 100%;
+    overflow: hidden;
     background-size: cover;
 }
 view.itemPic>image{

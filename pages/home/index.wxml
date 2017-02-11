@@ -4,8 +4,7 @@
     <view class="content">
         <view class="list">
         <view class="item">
-            <view class="itemPic">
-                 <image mode="widthFix" src="http://youyouplay.com/public/images/banner-3.jpg"></image>
+            <view class="itemPic" style="background:url(http://youyouplay.com/public/images/banner-3.jpg);background-size:cover">
             </view>
             <view class="itemContent">
                 <view class="itemTitle">
@@ -22,6 +21,7 @@
         </view>
         <view class="item">
             <view class="itemPic">
+                <image src="http://youyouplay.com/public/images/banner-3.jpg" mode="aspectFill"></image>
             </view>
             <view class="itemContent">
                 <view class="itemTitle">
