@@ -4,6 +4,7 @@ const page = {
   },
   onLoad(options){
     // Do some initialize when page load.
+    debugger
     console.log(this);
   }
 };
