@@ -5,6 +5,7 @@
         <view class="list">
         <view class="item">
             <view class="itemPic">
+                 <image mode="widthFix" src="http://youyouplay.com/public/images/banner-3.jpg"></image>
             </view>
             <view class="itemContent">
                 <view class="itemTitle">
