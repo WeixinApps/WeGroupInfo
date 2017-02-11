@@ -1,7 +1,6 @@
 {
   "pages":[
     "pages/home/index",
-    "pages/home/food",
     "pages/location/index",
     "pages/shop/index",
     "pages/user/index"
