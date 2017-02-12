@@ -1,6 +1,10 @@
 <view class="container">
     <import src="nav.wxml"/>
     <template is="nav" data="{{...nav,current}}"/>
+
+    <import src="content.wxml"/>
+    <template is="content" data="{{...content}}"/>
+    <!--    
     <view class="content">
         <view class="list">
         <view class="item">
@@ -53,5 +57,5 @@
             </view>
         </view>
         </view>
-    </view>
+    </view>-->
 </view>
