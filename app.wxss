@@ -3,3 +3,33 @@ view{
     font-size: 30rpx;
     font-weight: 300;
 }
+
+view.loading{
+    text-align: center;
+    margin-top: 200rpx;
+}
+view.loading>text{
+    display: block;
+    padding-top: 20rpx;
+}
+@keyframes line-loading {
+  0% {transform: scaley(1); }
+  80% {transform: scaley(0.3); }
+  90% {transform: scaley(1); } 
+}
+view.loading>view{
+  background-color: rgba(15,174,255,.4);
+  width: 15rpx;
+  height: 160rpx;
+  border-radius: 6rpx;
+  margin: 10rpx;
+  animation-fill-mode: both;
+  display: inline-block;
+  animation: line-loading 0.9s 0s infinite cubic-bezier(.11, .49, .38, .78); 
+}
+.loading >view:nth-child(2), .loading > view:nth-child(4) {
+  animation-delay: 0.25s !important; 
+}
+.loading > view:nth-child(1), .loading > view:nth-child(5) {
+  animation-delay: 0.5s !important; 
+}
