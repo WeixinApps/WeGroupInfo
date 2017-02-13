@@ -1,0 +1,10 @@
+<template name="loading">
+    <view class="loading" hidden="{{hideLoading}}">
+           <view></view>
+           <view></view>
+           <view></view>
+           <view></view>
+           <view></view>
+           <text>加载中...</text>
+    </view>
+</template>

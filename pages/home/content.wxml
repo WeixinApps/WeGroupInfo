@@ -1,13 +1,7 @@
 <template name="content">
     <view class="content">
-        <view class="loading" hidden="{{items.length>0 ? true : false}}">
-           <view></view>
-           <view></view>
-           <view></view>
-           <view></view>
-           <view></view>
-           <text>加载中...</text>
-        </view>
+        <import src="../common/loading.wxml"/>
+        <template is="loading" data="{{ hideLoading: items.length>0 ? true : false}}" />
         <view class="list">
         <view wx:for="{{items}}" wx:key="{{item.index}}" class="item">
             <view class="itemPic">
