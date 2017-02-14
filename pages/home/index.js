@@ -1,5 +1,6 @@
 // const nav = require('nav.js');
 import nav from 'nav';
+import touchUtility from '../../utils/touchUtility';
 
 let _this;
 class Index{
@@ -11,9 +12,9 @@ class Index{
     bindMethods(){
        //this.setData = Page.prototype.setData.bind(this);
        this.bindNavTap = this.bindNavTap.bind(this);
-       this.bindTouchStart = this.bindTouchStart.bind(this);
-       this.bindTouchMove = this.bindTouchMove.bind(this);
-       this.bindTouchEnd = this.bindTouchEnd.bind(this);
+       this.bindTouchStart = touchUtility.bindTouchStart.bind(this);
+       this.bindTouchMove = touchUtility.bindTouchMove.bind(this);
+       this.bindTouchEnd = touchUtility.bindTouchEnd.bind(this);
        // this.onLoad = this.onLoad.bind(this);
        this.onShareAppMessage = this.onShareAppMessage.bind(this);
     }
@@ -30,15 +31,7 @@ class Index{
         this.setCurrent(e.target.id);
         this.setPageContent(e.target.id);
     }
-    bindTouchStart(e){
-        console.log(e);
-    }
-    bindTouchMove(e){
-        console.log(e);
-    }
-    bindTouchEnd(e){
-        console.log(e);
-    }
+    
     getPageContent(page){
         return {items:[
             {
