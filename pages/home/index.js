@@ -11,6 +11,9 @@ class Index{
     bindMethods(){
        //this.setData = Page.prototype.setData.bind(this);
        this.bindNavTap = this.bindNavTap.bind(this);
+       this.bindTouchStart = this.bindTouchStart.bind(this);
+       this.bindTouchMove = this.bindTouchMove.bind(this);
+       this.bindTouchEnd = this.bindTouchEnd.bind(this);
        // this.onLoad = this.onLoad.bind(this);
        this.onShareAppMessage = this.onShareAppMessage.bind(this);
     }
@@ -26,6 +29,15 @@ class Index{
     bindNavTap(e){
         this.setCurrent(e.target.id);
         this.setPageContent(e.target.id);
+    }
+    bindTouchStart(e){
+        console.log(e);
+    }
+    bindTouchMove(e){
+        console.log(e);
+    }
+    bindTouchEnd(e){
+        console.log(e);
     }
     getPageContent(page){
         return {items:[

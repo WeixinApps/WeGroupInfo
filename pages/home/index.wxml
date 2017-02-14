@@ -1,9 +1,10 @@
 <view class="container">
     <import src="nav.wxml"/>
     <template is="nav" data="{{...nav,current}}"/>
-
     <import src="content.wxml"/>
-    <template is="content" data="{{...content}}"/>
+    <view class="content" bindtouchstart="bindTouchStart" bindtouchmove="bindTouchMove" bindtouchend="bindTouchEnd">
+        <template is="content" data="{{...content}}"/>
+    </view>
     <!--    
     <view class="content">
         <view class="list">

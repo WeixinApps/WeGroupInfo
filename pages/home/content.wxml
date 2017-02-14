@@ -1,5 +1,4 @@
 <template name="content">
-    <view class="content">
         <import src="../common/loading.wxml"/>
         <template is="loading" data="{{ hideLoading: items.length>0 ? true : false}}" />
         <view class="list">
@@ -21,5 +20,4 @@
             </view>
         </view>
         </view>
-    </view>
 </template>
