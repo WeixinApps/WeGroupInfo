@@ -1,7 +1,8 @@
 let eventsUtility = {
     touchStartX : 0,
+    touchStartY : 0,
     slideDuration : 500,
-    slideDistance : 50,
+    slideDistance : 150,
     slideLeft(){
         console.log("SlideLeft");
     },
@@ -16,6 +17,7 @@ class TouchUtility{
         // console.log(e);
         // console.log(eventsUtility);
         eventsUtility.touchStartX = e.touches[0].pageX;
+        eventsUtility.touchStartY = e.touches[0].pageX;
         eventsUtility.touchTimeStamp = e.timeStamp;
         eventsUtility.isSlideLeft = false;
         eventsUtility.isSlideRight = false;

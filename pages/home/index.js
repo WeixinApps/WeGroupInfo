@@ -53,19 +53,22 @@ class Index{
                 title: page+"去日本旅行最值得买的100件化妆品",
                 summary:"最美生活从旅行开始，现在出发！",
                 info:"跟着企鹅去韩国",
-                time:"3小时前"
+                time:"3小时前",
+                id:23
             }, {
                 image:"http://youyouplay.com/public/images/banner-3.jpg",
                 title:"去日本旅行最值得买的100件化妆品",
                 summary:"最美生活从旅行开始，现在出发！",
                 info:"跟着企鹅去韩国",
-                time:"5小时前"
+                time:"5小时前",
+                id:21
             }, {
                 image:"http://youyouplay.com/public/images/banner-3.jpg",
                 title:"去日本旅行最值得买的100件化妆品",
                 summary:"最美生活从旅行开始，现在出发！",
                 info:"跟着企鹅去韩国",
-                time:"9小时前"
+                time:"9小时前",
+                id:18
             }
         ]}; 
     }

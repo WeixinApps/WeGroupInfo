@@ -3,6 +3,7 @@
         <template is="loading" data="{{ hideLoading: items.length>0 ? true : false}}" />
         <view class="list">
         <view wx:for="{{items}}" wx:key="{{item.index}}" class="item">
+            <navigator url="../page/index?id={{item.id}}">
             <view class="itemPic">
                 <image src="{{item.image}}" mode="aspectFill"></image>
             </view>
@@ -18,6 +19,7 @@
                     <view class="itemTime">{{item.time}}</view>
                 </view>
             </view>
+            </navigator>
         </view>
         </view>
 </template>
