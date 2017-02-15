@@ -2,6 +2,6 @@
     <view class="nav" >
         <navigator wx:for="{{items}}" wx:key="{{item.index}}"
          class="{{current==item.url ? 'current' : ''}}"
-         id="{{item.url}}" url="index" bindtap="bindNavTap" > {{item.text}} </navigator> 
+         id="{{item.url}}" url="index?id={{item.url}}" bindtap="bindNavTap" > {{item.text}} </navigator> 
     </view>
 </template>

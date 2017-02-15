@@ -5,21 +5,33 @@ import touchUtility from '../../utils/touchUtility';
 let _this;
 class Index{
     constructor(){
+        this.currentId = 0;
         this.app = getApp();
-        this.data = {nav,current:"index",content:{items:[]}};
+        this.data = {nav,current:nav.items[this.currentId].url,content:{items:[]}};
         this.bindMethods();
     }
     bindMethods(){
        //this.setData = Page.prototype.setData.bind(this);
-       this.bindNavTap = this.bindNavTap.bind(this);
        this.bindTouchStart = touchUtility.bindTouchStart.bind(this);
        this.bindTouchMove = touchUtility.bindTouchMove.bind(this);
        this.bindTouchEnd = touchUtility.bindTouchEnd.bind(this);
+       this.bindNavTap = this.bindNavTap.bind(this);
        // this.onLoad = this.onLoad.bind(this);
        this.onShareAppMessage = this.onShareAppMessage.bind(this);
     }
-    bindViewTap(){
-
+    slideLeft(){
+        if(this.currentId<nav.items.length){
+            this.currentId++;
+            let index = nav.items[this.currentId].url;
+            this.slidePage(index);
+        }
+    }
+    slideRight(){
+        if(this.currentId>0){
+            this.currentId--;
+            let index = nav.items[this.currentId].url;
+            this.slidePage(index);
+        }
     }
     onLoad(options){
         //if not bind in bindMethods, 'this' point to the e instance
@@ -28,10 +40,12 @@ class Index{
         _this = this;
     }
     bindNavTap(e){
-        this.setCurrent(e.target.id);
-        this.setPageContent(e.target.id);
+        this.slidePage(e.target.id);
     }
-    
+    slidePage(index){
+        this.setCurrent(index);
+        this.setPageContent(index);
+    }
     getPageContent(page){
         return {items:[
             {

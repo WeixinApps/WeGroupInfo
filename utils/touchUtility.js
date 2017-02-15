@@ -1,43 +1,40 @@
+let eventsUtility = {
+    touchStartX : 0,
+    slideDuration : 500,
+    slideDistance : 50,
+    slideLeft(){
+        console.log("SlideLeft");
+    },
+    slideRight(){
+        console.log("SlideRight");
+    }
+};
 class TouchUtility{
-    constructor(handlers){
-        this.handlers = handlers || this.defaultEvents();
-        this.touchStartX = 0;
-        this.slideDuration = 500;
-        this.slideDistance = 50;
-    }
-    defaultEvents(){
-        return {
-            slideLeft(){
-                console.log("SlideLeft");
-            },
-            slideRight (){
-                console.log("SlideRight");
-            }
-        }
-    }
+    
     bindTouchStart(e){
-        console.log(this);
-        console.log(e);
-        this.touchStartX = e.touches[0].pageX;
-        this.touchTimeStamp = e.timeStamp;
-        this.slideLeft = false;
-        this.slideRight = false;
+        // console.log(this);
+        // console.log(e);
+        // console.log(eventsUtility);
+        eventsUtility.touchStartX = e.touches[0].pageX;
+        eventsUtility.touchTimeStamp = e.timeStamp;
+        eventsUtility.isSlideLeft = false;
+        eventsUtility.isSlideRight = false;
     }
     bindTouchMove(e){
-       if((this.touchStartX-e.touches[0].pageX)>this.slideDistance){
-            this.slideLeft = true;
+       if((eventsUtility.touchStartX-e.touches[0].pageX)>eventsUtility.slideDistance){
+            eventsUtility.isSlideLeft = true;
         }else{
-            this.slideLeft = false; 
+            eventsUtility.isSlideLeft = false; 
         }
-        if(e.touches[0].pageX-this.touchStartX>this.slideDistance && e.timeStamp-this.touchTimeStamp<this.slideDuration){
-            this.slideRight = true;
+        if(e.touches[0].pageX-eventsUtility.touchStartX>eventsUtility.slideDistance && e.timeStamp-eventsUtility.touchTimeStamp<eventsUtility.slideDuration){
+            eventsUtility.isSlideRight = true;
         }else{
-            this.slideRight = false; 
+            eventsUtility.isSlideRight = false; 
         }
     }
     bindTouchEnd(e){
-        if(this.slideLeft) this.handlers.slideLeft();
-        if(this.slideRight) this.handlers.slideRight();        
+        if(eventsUtility.isSlideLeft) this.slideLeft ? this.slideLeft() : eventsUtility.slideLeft();
+        if(eventsUtility.isSlideRight) this.slideRight ? this.slideRight() : eventsUtility.slideRight();        
     }
 }
 const touchUtility = new TouchUtility();
