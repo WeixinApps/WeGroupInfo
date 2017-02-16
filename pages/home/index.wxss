@@ -15,15 +15,15 @@ view.nav>navigator{
     /*float: left;*/
     display: inline-block;
     width: 60rpx;
-    padding: 25rpx 40rpx;
+    padding: 22rpx 40rpx;
 }
 view.nav>navigator.current{
     color:#000;
-    font-size: 35rpx;
+    font-size: 32rpx;
     border-bottom: 6rpx solid rgb(15,174,255);
 }
 view.content{
-    margin-top: 90rpx;
+    margin-top: 86rpx;
 }
 view.itemPic{
     height: 400rpx;

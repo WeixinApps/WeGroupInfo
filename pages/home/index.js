@@ -45,6 +45,7 @@ class Index{
     slidePage(index){
         this.setCurrent(index);
         this.setPageContent(index);
+        this.currentId = nav.items.findIndex(item=>item.url==index);
     }
     getPageContent(page){
         return {items:[

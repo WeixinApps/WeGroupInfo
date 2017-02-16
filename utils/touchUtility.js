@@ -1,8 +1,8 @@
 let eventsUtility = {
     touchStartX : 0,
     touchStartY : 0,
-    slideDuration : 500,
-    slideDistance : 150,
+    slideDuration : 1000,
+    slideDistance : 50,
     slideLeft(){
         console.log("SlideLeft");
     },
@@ -17,24 +17,27 @@ class TouchUtility{
         // console.log(e);
         // console.log(eventsUtility);
         eventsUtility.touchStartX = e.touches[0].pageX;
-        eventsUtility.touchStartY = e.touches[0].pageX;
+        eventsUtility.touchStartY = e.touches[0].pageY;
         eventsUtility.touchTimeStamp = e.timeStamp;
         eventsUtility.isSlideLeft = false;
         eventsUtility.isSlideRight = false;
     }
-    bindTouchMove(e){
-       if((eventsUtility.touchStartX-e.touches[0].pageX)>eventsUtility.slideDistance){
+    bindTouchMove(e){ 
+       if((eventsUtility.touchStartX-e.touches[0].pageX)>eventsUtility.slideDistance
+            && Math.abs(eventsUtility.touchStartY-e.touches[0].pageY)<eventsUtility.slideDistance/2){
             eventsUtility.isSlideLeft = true;
         }else{
             eventsUtility.isSlideLeft = false; 
         }
-        if(e.touches[0].pageX-eventsUtility.touchStartX>eventsUtility.slideDistance && e.timeStamp-eventsUtility.touchTimeStamp<eventsUtility.slideDuration){
+        if(e.touches[0].pageX-eventsUtility.touchStartX>eventsUtility.slideDistance 
+           && Math.abs(eventsUtility.touchStartY-e.touches[0].pageY)<eventsUtility.slideDistance/2){
             eventsUtility.isSlideRight = true;
         }else{
             eventsUtility.isSlideRight = false; 
         }
     }
     bindTouchEnd(e){
+        if(e.timeStamp-eventsUtility.touchTimeStamp>eventsUtility.slideDuration) return;
         if(eventsUtility.isSlideLeft) this.slideLeft ? this.slideLeft() : eventsUtility.slideLeft();
         if(eventsUtility.isSlideRight) this.slideRight ? this.slideRight() : eventsUtility.slideRight();        
     }
