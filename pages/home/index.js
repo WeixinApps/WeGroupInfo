@@ -86,7 +86,7 @@ class Index{
     }
     onShareAppMessage(){
         return {
-        title: '广告板 广而告之 有你所需',
+        title: '广而告之 有你所需',
         path: '/page/index?id=123'
         }
     }
