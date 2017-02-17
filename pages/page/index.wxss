@@ -14,11 +14,18 @@
     display: inline-block;
     margin-right:50rpx;
 }
+/*.author{
+    border-left: 2rpx solid  rgb(15,174,255);
+    padding-left: 15rpx;
+}*/
 .content image{
+    display:block;
     width:100%;
+    margin: 10rpx 0;
 }
 .content text.p{
     display:block;
-    margin:10rpx 30rpx;
-    line-height:38rpx;
+    font-size: 32rpx;
+    margin:0rpx 30rpx 30rpx 30rpx;
+    line-height:45rpx;
 }
