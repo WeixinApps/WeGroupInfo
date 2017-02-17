@@ -1,0 +1,15 @@
+view.userinfo{
+    width: 100%;
+    height:200rpx;
+    overflow: hidden;
+}
+view.avatar{
+    width:180rpx;
+    height: 180rpx;
+    margin:20rpx auto;
+    overflow:hidden;
+}
+view.avatar image{
+    width:180rpx;
+    height: 180rpx;
+}
