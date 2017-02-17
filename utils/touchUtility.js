@@ -35,8 +35,8 @@ class TouchUtility{
         }
     }
     bindTouchEnd(e){
-        if(e.timeStamp-eventsUtility.touchTimeStamp>eventsUtility.slideDuration 
-        || Math.abs(eventsUtility.touchStartY-e.touches[0].pageY)>eventsUtility.slideDistance/2) return;
+        if(e.timeStamp-eventsUtility.touchTimeStamp>eventsUtility.slideDuration || 
+        Math.abs(eventsUtility.touchStartY-e.changedTouches[0].pageY)>eventsUtility.slideDistance/2) return;
         if(eventsUtility.isSlideLeft) this.slideLeft ? this.slideLeft() : eventsUtility.slideLeft();
         if(eventsUtility.isSlideRight) this.slideRight ? this.slideRight() : eventsUtility.slideRight();        
     }

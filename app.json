@@ -1,10 +1,10 @@
 {
   "pages":[
-    "pages/home/index",
+    "pages/home/home",
     "pages/location/index",
     "pages/shop/index",
-    "pages/user/index",
-    "pages/page/index"
+    "pages/user/user",
+    "pages/page/page"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -14,22 +14,22 @@
    },
   "tabBar": {
     "list": [{
-      "pagePath": "pages/home/index",
+      "pagePath": "pages/home/home",
       "iconPath": "images/windows.png",
       "selectedIconPath": "images/windows_h.png",
       "text": "首页"
     }, {
+      "pagePath": "pages/shop/index",
+      "iconPath": "images/shop.png",
+      "selectedIconPath": "images/shop_h.png",
+      "text": "消息"
+    },{
       "pagePath": "pages/location/index",
       "iconPath": "images/place.png",
       "selectedIconPath": "images/place_h.png",
       "text": "附近"
     }, {
-      "pagePath": "pages/shop/index",
-      "iconPath": "images/shop.png",
-      "selectedIconPath": "images/shop_h.png",
-      "text": "购物"
-    }, {
-      "pagePath": "pages/user/index",
+      "pagePath": "pages/user/user",
       "iconPath": "images/user.png",
       "selectedIconPath": "images/user_h.png",
       "text": "我的"
