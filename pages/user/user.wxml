@@ -4,6 +4,7 @@
             <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="aspectFit"></image>
             <!--<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover" mode="scaleToFill"></image>-->
             <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+            <!--<text class="userinfo-nickname">{{userInfo.nickName}}</text>-->
         </view>
     </view>
 </view>
