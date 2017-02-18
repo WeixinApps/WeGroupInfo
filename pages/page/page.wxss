@@ -21,11 +21,58 @@
 .content image{
     display:block;
     width:100%;
-    margin: 10rpx 0;
+    margin: 30rpx 0;
 }
-.content text.p{
+text.p, text.ph{
     display:block;
     font-size: 32rpx;
-    margin:0rpx 30rpx 30rpx 30rpx;
+    margin:20rpx 30rpx;
     line-height:45rpx;
+}
+text.ph{
+    font-weight: 500;
+    margin-top: 30rpx;
+}
+.related{
+    margin: 50rpx 30rpx;
+    padding:20rpx;
+    border:2rpx solid #ccc;
+}
+.related-title{
+    color:#222;
+    padding-bottom: 20rpx;
+} 
+.related navigator{
+    display: block;
+    border-top: 1rpx solid #ccc;
+    overflow: hidden;
+    padding: 15rpx 0;
+}
+.related>navigator image{
+    float: left;
+    width: 200rpx;
+    height: 150rpx;
+}
+.nav-title{
+    float: left;
+    padding: 10rpx 0 0 20rpx;
+    width: 425rpx;
+}
+.nav-info{
+    float: left;
+    font-size: 26rpx;
+    padding: 10rpx 0 0 20rpx;
+    width: 425rpx;
+    color: #666;
+}
+.nav-info .date{
+    float: right;
+    margin-right: 0;
+}
+.related navigator:last-child{
+    padding-bottom: 0;
+}
+.readed{
+    margin: 30rpx;
+    color:#666;
 }
