@@ -1,0 +1,18 @@
+.menu-bar{
+    display: flex;
+    width:100%;
+}
+.menu-bar>view{
+    flex:1;
+    padding:20rpx;
+    text-align: center;    
+}
+.menu-bar>view image{
+    width: 100rpx;
+    height: 100rpx;
+    padding: 20rpx auto;
+}
+.menu-bar>view text{
+    padding: 20rpx 0;
+    display: block;
+}

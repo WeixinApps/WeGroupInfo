@@ -1,0 +1,18 @@
+<view class="menu-bar">
+    <view>
+        <image src="/images/plus.png"></image>
+        <view class="menu">新建文章</view>
+    </view>
+    <view>
+        <image src="/images/question.png"></image>
+        <view class="menu">新建投票</view>
+    </view>
+    <view>
+        <image src="/images/home.png"></image>
+        <view class="menu">调查问卷</view>
+    </view>
+    <view>
+        <image src="/images/home.png"></image>
+        <view class="menu">简短通知</view>
+    </view>
+</view>
