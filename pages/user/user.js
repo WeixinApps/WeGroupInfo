@@ -6,6 +6,7 @@ const user = {
     onLoad(){
         console.log(this.app);
         this.app.getUserInfo((userInfo)=>{
+            console.log(userInfo);
             this.setData({
                 userInfo:userInfo
             })
