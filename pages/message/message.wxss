@@ -31,23 +31,27 @@ swiper{
 }
 .message-info{
     padding: 30rpx;
+    padding-bottom: 10rpx;
     overflow: hidden;
 }
 .message-info image{
     width: 80rpx;
     height: 80rpx;
+    padding-left:20rpx;
     float: left;
 }
 .user-id,.time{
-    margin-left:100rpx;
+    margin-left:120rpx;
     padding:5rpx;
+    font-size:35rpx;
 }
 .time{
-    font-size: 25rpx;
+    font-size: 22rpx;
     color:#666;
+    padding-top:10rpx;
 }
 .message .title{
     margin: 0 30rpx;
-    padding: 30rpx;
-    font-size: 36rpx;
+    padding: 10rpx 15rpx 40rpx 15rpx;
+    font-size: 38rpx;
 }
