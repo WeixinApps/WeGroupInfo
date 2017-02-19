@@ -2,7 +2,15 @@ class Index{
     constructor(){
         this.app = getApp();
         this.data = {
-            
+            imgUrls: [
+                'http://images.apple.com/cn/home/images/promos/accessories_small.jpg',
+                'http://images.apple.com/cn/home/images/promos/ipad_pro_small.jpg',
+                'http://images.apple.com/cn/home/images/promos/iphone_upgrade_small.jpg'
+            ],
+            indicatorDots: false,
+            autoplay: false,
+            interval: 5000,
+            duration: 1000
         }
         this.bindMethods();
     }

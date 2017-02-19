@@ -1,18 +1,38 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+    <swiper-item>
+      <image src="{{item}}" mode="aspectFill" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
 <view class="menu-bar">
-    <view>
-        <image src="/images/plus.png"></image>
+    <navigator>
+        <image src="/images/newPage.png"></image>
         <view class="menu">新建文章</view>
-    </view>
-    <view>
-        <image src="/images/question.png"></image>
+    </navigator>
+    <navigator>
+        <image src="/images/newVote.png"></image>
         <view class="menu">新建投票</view>
-    </view>
-    <view>
-        <image src="/images/home.png"></image>
+    </navigator>
+    <navigator>
+        <image src="/images/question.png"></image>
         <view class="menu">调查问卷</view>
-    </view>
-    <view>
-        <image src="/images/home.png"></image>
+    </navigator>
+    <navigator>
+        <image src="/images/notice.png"></image>
         <view class="menu">简短通知</view>
+    </navigator>
+</view>
+<view class="messages">
+    <view class="message">
+        <view class="message-info">
+            <image class="avatar" src="/images/avatar.png"></image>
+            <view class="info">
+                <view class="user-id">筱荷</view>
+                <view class="time">昨天 19:00</view>
+            </view>
+        </view>
+        <view class="title">您有一条新信息</view>        
     </view>
 </view>
