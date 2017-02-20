@@ -27,7 +27,17 @@
 <view class="messages">
     <view class="message">
         <view class="message-info">
-            <image class="avatar" src="/images/avatar.png"></image>
+            <image class="avatar" src="/images/vine.png"></image>
+            <view class="info">
+                <view class="user-id">筱荷</view>
+                <view class="time">昨天 19:00</view>
+            </view>
+        </view>
+        <view class="title">您有一条新信息</view>        
+    </view>
+    <view class="message">
+        <view class="message-info">
+            <image class="avatar" src="/images/vine.png"></image>
             <view class="info">
                 <view class="user-id">筱荷</view>
                 <view class="time">昨天 19:00</view>

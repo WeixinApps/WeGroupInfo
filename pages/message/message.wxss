@@ -28,6 +28,10 @@ swiper{
 }
 .message{
     background: #fff;
+    margin: 0 0 20rpx 0;
+}
+.message:last-child{
+    margin-bottom: 0;
 }
 .message-info{
     padding: 30rpx;
@@ -43,6 +47,7 @@ swiper{
 .user-id,.time{
     margin-left:120rpx;
     padding:5rpx;
+    padding-top:0rpx;
     font-size:35rpx;
 }
 .time{
