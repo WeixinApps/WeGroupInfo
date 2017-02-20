@@ -9,11 +9,11 @@
 <view class="menu-bar">
     <navigator>
         <image src="/images/newPage.png"></image>
-        <view class="menu">新建文章</view>
+        <view class="menu">创建文章</view>
     </navigator>
     <navigator>
         <image src="/images/newVote.png"></image>
-        <view class="menu">新建投票</view>
+        <view class="menu">发起投票</view>
     </navigator>
     <navigator>
         <image src="/images/question.png"></image>
@@ -21,7 +21,7 @@
     </navigator>
     <navigator>
         <image src="/images/notice.png"></image>
-        <view class="menu">简短通知</view>
+        <view class="menu">消息通知</view>
     </navigator>
 </view>
 <view class="messages">
