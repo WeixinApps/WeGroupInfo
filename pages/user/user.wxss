@@ -43,7 +43,7 @@ text.userinfo-id{
 .menu navigator{
     background:#fff;
     padding: 30rpx;
-    padding-left: 90rpx;
+    /*padding-left: 90rpx;*/
     display: block;
     font-size: 32rpx;
     border: 1rpx solid #eee; 
@@ -54,6 +54,13 @@ text.userinfo-id{
 }
 .menu navigator:last-child{
     border-top: 2rpx solid #eee;
+}
+.menu navigator>image{
+    width:40rpx;
+    height:40rpx;
+    float:left;
+    display:block;
+    margin:0 20rpx;
 }
 .navigator-arrow {
   padding-right: 26rpx;

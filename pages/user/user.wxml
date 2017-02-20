@@ -11,17 +11,23 @@
         </view>
     </view>
     <view class="menu">
-        <navigator>我的广告
+        <navigator>
+            <image src="/images/myad.png"></image>我的广告
             <view class="navigator-arrow"></view></navigator>
-        <navigator>我的收藏
+        <navigator>
+            <image src="/images/collection.png"></image>我的收藏
             <view class="navigator-arrow"></view></navigator>
-        <navigator>我的订单
+        <navigator>
+            <image src="/images/order.png"></image>我的订单
             <view class="navigator-arrow"></view></navigator>
-        <navigator>已读消息
+        <navigator>
+            <image src="/images/readed.png"></image>已读消息
             <view class="navigator-arrow"></view></navigator>
         <!--<navigator></navigator>-->
     </view>
     <view class="menu">
-        <navigator>关于我们</navigator>
+        <navigator>
+        <image src="/images/about.png"></image>关于我们
+        <view class="navigator-arrow"></view></navigator>
     </view>
 </view>
