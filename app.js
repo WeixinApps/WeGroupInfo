@@ -8,14 +8,15 @@ const app = {
     wx.setStorageSync('logs', logs)
   },
   getUserInfo(cb){
-    console.log(this.globalData);
     if(this.globalData.userInfo){
       typeof cb == "function" && cb(this.globalData.userInfo)
     }else{
       wx.login({
-        success: ()=>{
+        success: (res)=>{
+          console.log(res);
           wx.getUserInfo({
             success: (res)=> {
+              console.log(res);
               this.globalData.userInfo = res.userInfo
               typeof cb == "function" && cb(this.globalData.userInfo)
             }

@@ -21,7 +21,7 @@
     </navigator>
     <navigator>
         <image src="/images/notice.png"></image>
-        <view class="menu">消息通知</view>
+        <view class="menu">即时通知</view>
     </navigator>
 </view>
 <view class="messages">
@@ -29,7 +29,7 @@
         <view class="message-info">
             <image class="avatar" src="/images/vine.png"></image>
             <view class="info">
-                <view class="user-id">筱荷</view>
+                <view class="user-id">筱荷 发起了一个投票</view>
                 <view class="time">昨天 19:00</view>
             </view>
         </view>
