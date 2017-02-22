@@ -15,13 +15,13 @@
   "tabBar": {
     "list": [{
       "pagePath": "pages/home/home",
-      "iconPath": "images/windows.png",
-      "selectedIconPath": "images/windows_h.png",
+      "iconPath": "images/menu.png",
+      "selectedIconPath": "images/menu_h.png",
       "text": "首页"
     }, {
       "pagePath": "pages/message/message",
-      "iconPath": "images/shop.png",
-      "selectedIconPath": "images/shop_h.png",
+      "iconPath": "images/window.png",
+      "selectedIconPath": "images/window_h.png",
       "text": "消息"
     },{
       "pagePath": "pages/location/index",

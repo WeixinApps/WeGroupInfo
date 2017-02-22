@@ -4,7 +4,7 @@ page{
 view.userinfo{
     height:200rpx;
     /*background: #0faeff;*/
-    background:rgb(147,208,209);
+    background:#0081bc;
     overflow: hidden;
     padding: 30rpx;
 }

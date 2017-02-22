@@ -66,9 +66,10 @@ swiper{
     width: 40rpx;
 }
 .message .close image{
-    height: 32rpx;
-    width:32rpx;
-    margin:4rpx;
+    height: 28rpx;
+    width:28rpx;
+    margin:6rpx;
+    padding: 0;
 }
 .gcolor{
     color:#666;
