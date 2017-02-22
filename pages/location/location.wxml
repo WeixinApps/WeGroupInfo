@@ -1,0 +1,7 @@
+<view class="topad">
+    <!--<view class="title">附近头条广告</view>-->
+    <view class="location"><image class="location" src="/images/place.png"></image><text>北京大学</text></view>
+    <view class="first"><image src="http://img.hb.aicdn.com/632aa436f3fc886a19ac61a56272afd98bacd38c56a82-UTxhVu_fw658"></image>
+    <view class="atitle">国内最优质图片灵感库，已有数百万出众网友，用花瓣保存喜欢的图片。</view>
+    </view>
+</view>

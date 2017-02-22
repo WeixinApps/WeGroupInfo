@@ -1,7 +1,7 @@
 {
   "pages":[
     "pages/home/home",
-    "pages/location/index",
+    "pages/location/location",
     "pages/message/message",
     "pages/user/user",
     "pages/page/page"
@@ -24,7 +24,7 @@
       "selectedIconPath": "images/window_h.png",
       "text": "消息"
     },{
-      "pagePath": "pages/location/index",
+      "pagePath": "pages/location/location",
       "iconPath": "images/place.png",
       "selectedIconPath": "images/place_h.png",
       "text": "附近"
