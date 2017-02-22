@@ -64,8 +64,11 @@ swiper{
     float:right;
     height:40rpx;
     width: 40rpx;
-    background: url("../../images/close.png") center no-repeat;
-    background-size:80% 80%;
+}
+.message .close image{
+    height: 32rpx;
+    width:32rpx;
+    margin:4rpx;
 }
 .gcolor{
     color:#666;

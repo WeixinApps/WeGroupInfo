@@ -39,8 +39,8 @@
         <view class="message-info">
             <image class="avatar" src="/images/vine.png"></image>
             <view class="info">
-                <view class="user-id">筱荷<text class="gcolor"> 发起的问卷</text></view>
-                <view class="time">昨天 19:00</view>
+                <view class="user-id">筱荷<text class="gcolor"> 发起的问卷</text><view class="close"><image src="/images/close.png"></image></view></view>
+                <view class="time">昨天 15:00</view>
             </view>
         </view>
         <view class="title">项目组五一自驾游调查问卷</view>        
