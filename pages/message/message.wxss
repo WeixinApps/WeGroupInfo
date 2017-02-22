@@ -62,10 +62,10 @@ swiper{
 }
 .message .close{
     float:right;
-    height:30rpx;
-    width: 30rpx;
-    background: url('../../images/close.png');
-    background-size:100% 100%;
+    height:40rpx;
+    width: 40rpx;
+    background: url("../../images/close.png") center no-repeat;
+    background-size:80% 80%;
 }
 .gcolor{
     color:#666;
