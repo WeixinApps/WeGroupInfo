@@ -20,9 +20,9 @@
       "text": "首页"
     }, {
       "pagePath": "pages/message/message",
-      "iconPath": "images/window.png",
-      "selectedIconPath": "images/window_h.png",
-      "text": "消息"
+      "iconPath": "images/share.png",
+      "selectedIconPath": "images/share_h.png",
+      "text": "分享"
     },{
       "pagePath": "pages/location/location",
       "iconPath": "images/place.png",
