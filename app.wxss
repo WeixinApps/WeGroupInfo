@@ -33,3 +33,16 @@ view.loading>view{
 .loading > view:nth-child(1), .loading > view:nth-child(5) {
   animation-delay: 0.5s !important; 
 }
+.navigator-arrow:after {
+  content: " ";
+  display: inline-block;
+  height: 18rpx;
+  width: 18rpx;
+  border-width: 2rpx 2rpx 0 0;
+  border-color: #888888;
+  border-style: solid;
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  position: absolute;
+  margin-top: -30rpx;
+  right: 28rpx;
+}

@@ -17,29 +17,62 @@
         </navigator>
     </view>
     <view class="rows">
-        <navigator>
+        <navigator url="../page/page">
             <image class="thumb" src="https://drscdn.500px.org/photo/139065565/q%3D80_h%3D300/2d521d1151a39ddd7e1a60328c008bdf"></image>
             <view class="nav-title">北京大学周边最好吃最好玩最好看的有什么?</view>
             <view class="nav-info">
-                <view class="author">旅游资讯</view>
+                <view class="author">周边快讯</view>
                 <!--<view class="date">2017-02-14</view>-->
             </view>
         </navigator>
-        <navigator>
-            <view class="nav-title">北京大学周边最好吃最好玩最好看的有什么?</view>
+        <navigator url="../page/page">
+            <view class="nav-title">第一眼看出什么字，就代表你是什么人？（准到窒息）</view>
             <view class="nav-info">
-                <view class="author">旅游资讯</view>
-                <!--<view class="date">2017-02-14</view>-->
+                <view class="author">冷丫</view>
             </view>
         </navigator>
-        <navigator>
-
+        <navigator url="../page/page">
+            <view class="nav-title">提示丨关于评职称，你关心的这些问题都有答案了！</view>
+            <view class="nav-info">
+                <view class="author">经济日报</view>
+            </view>
         </navigator>
-        <navigator>
-
+        <navigator url="../page/page">
+            <view class="nav-title">孔晓振的平价裙美到瞎，周冬雨运动裤也能穿出高逼格！</view>
+            <view class="nav-info">
+                <view class="author">海报时尚网</view>
+            </view>
         </navigator>
-        <navigator>
-
+        <navigator url="../page/page">
+            <view class="nav-title">橘猫为什么胖？一种是除了自己贪吃外，还有一种是...</view>
+            <view class="nav-info">
+                <view class="author">爱猫咪控</view>
+            </view>
+        </navigator>
+        <navigator class="more">
+            查看更多 <view class="navigator-arrow"></view>
         </navigator>
     </view>
+</view>
+<view class="ad-group">
+    <view class="title dgreen">美食推荐</view>
+     <view class="rows">
+        <navigator url="../page/page">
+            <image class="thumb" src="https://drscdn.500px.org/photo/139065565/q%3D80_h%3D300/2d521d1151a39ddd7e1a60328c008bdf"></image>
+            <view class="nav-title">北京大学周边最好吃最好玩最好看的有什么?</view>
+            <view class="nav-info">
+                <view class="author">周边快讯</view>
+                <!--<view class="date">2017-02-14</view>-->
+            </view>
+        </navigator>
+        <navigator url="../page/page">
+            <view class="nav-title">第一眼看出什么字，就代表你是什么人？（准到窒息）</view>
+            <view class="nav-info">
+                <view class="author">冷丫</view>
+            </view>
+        </navigator>
+        <navigator class="more">
+            查看更多 <view class="navigator-arrow"></view>
+        </navigator>
+     </view>
 </view>

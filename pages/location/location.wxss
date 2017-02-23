@@ -64,6 +64,7 @@
     border-top: 1rpx solid #ddd;
     overflow: hidden;
     padding: 15rpx 0;
+    min-height: 120rpx;
 }
 .rows .author{
     float:left;
@@ -72,7 +73,7 @@
     float: left;
     width: 200rpx;
     height: 150rpx;
-    padding-right:10px;
+    padding:10rpx 20rpx 0 0;
 }
 .nav-title{
     padding: 10rpx 0 0 0;
@@ -88,4 +89,18 @@
 .nav-info .date{
     float: right;
     margin-right: 0;
+}
+navigator.more{
+    text-align: center;
+    padding:30rpx;
+    min-height: 30rpx;
+    color:#666;
+    margin: 0;
+}
+.navigator-arrow {
+  padding-right: 26rpx;
+  position: relative;
+}
+.ad-group .title.dgreen{
+    border-left: 8rpx solid #01b482;
 }
