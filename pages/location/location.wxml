@@ -1,7 +1,45 @@
 <view class="topad">
     <!--<view class="title">附近头条广告</view>-->
     <view class="location"><image class="location" src="/images/place.png"></image><text>北京大学</text></view>
-    <view class="first"><image src="http://img.hb.aicdn.com/632aa436f3fc886a19ac61a56272afd98bacd38c56a82-UTxhVu_fw658"></image>
-    <view class="atitle">国内最优质图片灵感库，已有数百万出众网友，用花瓣保存喜欢的图片。</view>
+    <view class="first">
+        <image src="https://drscdn.500px.org/photo/121123763/q%3D80_m%3D2000_k%3D1/f3d3d798550a36a14293a145a7707f85" mode="aspectFill"></image>
+        <view class="atitle">国内最优质图片灵感库，用花瓣保存喜欢的图片。</view>
+    </view>
+</view>
+<view class="ad-group">
+    <view class="title">热门话题</view>
+    <view class="cols">
+        <navigator>
+        </navigator>
+        <navigator>
+        </navigator>
+        <navigator>
+        </navigator>
+    </view>
+    <view class="rows">
+        <navigator>
+            <image class="thumb" src="https://drscdn.500px.org/photo/139065565/q%3D80_h%3D300/2d521d1151a39ddd7e1a60328c008bdf"></image>
+            <view class="nav-title">北京大学周边最好吃最好玩最好看的有什么?</view>
+            <view class="nav-info">
+                <view class="author">旅游资讯</view>
+                <!--<view class="date">2017-02-14</view>-->
+            </view>
+        </navigator>
+        <navigator>
+            <view class="nav-title">北京大学周边最好吃最好玩最好看的有什么?</view>
+            <view class="nav-info">
+                <view class="author">旅游资讯</view>
+                <!--<view class="date">2017-02-14</view>-->
+            </view>
+        </navigator>
+        <navigator>
+
+        </navigator>
+        <navigator>
+
+        </navigator>
+        <navigator>
+
+        </navigator>
     </view>
 </view>
