@@ -1,6 +1,6 @@
 <view class="topad">
     <!--<view class="title">附近头条广告</view>-->
-    <view class="location"><image class="location" src="/images/place.png"></image><text>北京大学</text></view>
+    <view class="location"><image class="location" src="/images/place.png"></image><text>{{userinfos.location.name}}</text></view>
     <view class="first">
         <image src="https://drscdn.500px.org/photo/121123763/q%3D80_m%3D2000_k%3D1/f3d3d798550a36a14293a145a7707f85" mode="aspectFill"></image>
         <view class="atitle">国内最优质图片灵感库，用花瓣保存喜欢的图片。</view>

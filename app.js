@@ -32,6 +32,14 @@ const app = {
         typeof cb == "function" && cb(res)
       }
     });
+  },
+  chooseLocation(cb){
+    wx.chooseLocation({
+      type: 'wgs84',
+      success: function (res){
+        typeof cb == "function" && cb(res)
+      }
+    });
   }
 }
 App(app);
