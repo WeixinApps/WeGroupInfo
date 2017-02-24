@@ -2,14 +2,15 @@ page{
     background: rgba(242,242,242,0.7);
 }
 view.userinfo{
-    height:200rpx;
+    margin:30rpx 0;
+    height:170rpx;
     /*background: #0faeff;*/
-    background:#0081bc;
+    background: #fff;
     overflow: hidden;
     padding: 30rpx;
 }
 view.avatar{
-    height:190rpx;
+    height:170rpx;
     overflow:hidden;
 }
 view.avatar image{
@@ -18,13 +19,14 @@ view.avatar image{
     height: 150rpx;
     border-radius:75rpx;
     /*border: 2rpx solid #fff;*/
-    margin:20rpx;
+    margin: 10rpx 20rpx;
     float:left;
+    border: 1rpx solid #eee;
 }
 view.avatar .info{
     float: left;
-    margin:40rpx 30rpx;
-    color:#fff;
+    margin:30rpx;
+    /*color:#fff;*/
 }
 .info text{
     display: block;
@@ -34,7 +36,7 @@ text.userinfo-nickname{
     font-size:36rpx;
 }
 text.userinfo-id{
-    color:#eee;
+    /*color:#eee;*/
     margin-top: 20rpx;
     font-size:30rpx;
 }
