@@ -8,6 +8,7 @@ view.userinfo{
     background: #fff;
     overflow: hidden;
     padding: 30rpx;
+    border: 1rpx solid #ddd;
 }
 view.avatar{
     height:170rpx;
@@ -21,7 +22,7 @@ view.avatar image{
     /*border: 2rpx solid #fff;*/
     margin: 10rpx 20rpx;
     float:left;
-    border: 1rpx solid #eee;
+    border: 1rpx solid #ddd;
 }
 view.avatar .info{
     float: left;
@@ -49,14 +50,15 @@ text.userinfo-id{
     /*padding-left: 90rpx;*/
     display: block;
     font-size: 32rpx;
-    border: 1rpx solid #eee; 
+    border: 1rpx solid #ddd; 
+    border-top: none;
     font-weight: 200;
 }
 .menu navigator:first-child{
-    border-top: 2rpx solid #eee;
+    border-top: 2rpx solid #ddd;
 }
 .menu navigator:last-child{
-    border-top: 2rpx solid #eee;
+    border-bottom: 2rpx solid #ddd;
 }
 .menu navigator>image{
     width:40rpx;
