@@ -5,7 +5,7 @@
             <!--<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover" mode="scaleToFill"></image>-->
             <view class="info">
             <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-            <text class="userinfo-id">地区：{{userInfo.province}}</text>
+            <text class="userinfo-id">{{userInfo.province?"地区："+userInfo.province:""}}</text>
             </view>
             <!--<text class="userinfo-nickname">{{userInfo.nickName}}</text>-->
         </view>
