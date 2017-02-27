@@ -15,10 +15,10 @@
             <image src="/images/my-ad.png"></image>我的广告
             <view class="navigator-arrow"></view></navigator>
         <navigator>
-            <image src="/images/my-collection.png"></image>我的收藏
+            <image src="/images/archive.png"></image>我的收藏
             <view class="navigator-arrow"></view></navigator>
         <navigator>
-            <image src="/images/order.png"></image>我的订单
+            <image src="/images/my-collection.png"></image>我的订单
             <view class="navigator-arrow"></view></navigator>
         <navigator>
             <image src="/images/my-readed.png"></image>已读消息
