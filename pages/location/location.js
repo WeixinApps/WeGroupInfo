@@ -8,13 +8,16 @@ const page = {
       }
     }
   },
-  onLoad(options){
+  selectLocation(){
     this.app.chooseLocation((location)=>{
         console.log(location);
         this.setData({
             userinfos:{location:location}
         })
-     })
+     });
+  },
+  onLoad(options){
+    this.selectLocation();
   }
 };
 Page(page);
