@@ -7,9 +7,12 @@ const app = {
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
   },
+  invoke(cb,res){
+    typeof cb == "function" && cb(res)
+  },
   getUserInfo(cb){
     if(this.globalData.userInfo){
-      typeof cb == "function" && cb(this.globalData.userInfo)
+      this.invoke(cb,this.globalData.userInfo);
     }else{
       wx.login({
         success: (res)=>{
@@ -17,8 +20,8 @@ const app = {
           wx.getUserInfo({
             success: (res)=> {
               console.log(res);
-              this.globalData.userInfo = res.userInfo
-              typeof cb == "function" && cb(this.globalData.userInfo)
+              this.globalData.userInfo = res.userInfo;
+              this.invoke(cb,this.globalData.userInfo);
             }
           })
         }
@@ -29,7 +32,7 @@ const app = {
     wx.getLocation({
       type: 'wgs84',
       success: function (res){
-        typeof cb == "function" && cb(res)
+        this.invoke(cb,res);
       }
     });
   },
@@ -37,9 +40,17 @@ const app = {
     wx.chooseLocation({
       type: 'wgs84',
       success: function (res){
-        typeof cb == "function" && cb(res)
+        this.invoke(cb,res);
       }
     });
+  },
+  getData(url,cb){
+      wx.request({
+        url:url,
+        success:(res)=>{
+          this.invoke(cb,res.data);
+        }
+      })
   }
 }
 App(app);
