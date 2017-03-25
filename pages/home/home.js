@@ -74,10 +74,16 @@ class Index{
         ]}; 
     }
     setPageContent(current){
-        let items = this.getPageContent(current);
+        // let items = this.getPageContent(current);
+        // _this.setData({
+        //     content:items
+        // });
+        this.app.getData("http://localhost:3000/api/news/items/"+current,this.setPageData);
+    }
+    setPageData(data){
         _this.setData({
-            content:items
-        })
+            content:{items:data}
+        });
     }
     setCurrent(current){
         _this.setData({
